@@ -1,0 +1,43 @@
+.paginationBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // flex-wrap: wrap;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    // flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    li {
+      width: fit-content;
+      height: auto;
+      padding: 5px 10px;
+      background: #f7f7f7;
+      margin-right: 10px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      cursor: pointer;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+  .backPag,
+  .nextPag {
+    margin: 0 10px;
+    font-size: normal;
+    font-weight: 400;
+    color: #949494;
+    cursor: pointer;
+  }
+  .numberLink {
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

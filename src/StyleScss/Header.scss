@@ -1,0 +1,125 @@
+.headerBlock {
+	width: 100%;
+	// min-width: 1216px;
+	padding: 10px 112px;
+	margin: 0 auto;
+	.innerHeader {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		// flex-wrap: wrap;
+
+		.logoItem {
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			text-decoration: auto;
+			color: black;
+			a {
+				text-decoration: none;
+			}
+
+			span {
+				font-size: 40px;
+				font-weight: 800;
+				line-height: 40px;
+				color: #0082fa;
+				margin-right: 20px;
+			}
+			h3 {
+				font-size: 22px;
+				font-weight: 700;
+				line-height: 26px;
+			}
+		}
+
+		.infoItem {
+			// width: 100%;
+			display: flex;
+			align-items: center;
+			// flex-wrap: wrap;
+			justify-content: end;
+			text-align: right;
+			a {
+				font-size: 18px;
+				font-weight: 600;
+				line-height: 21px;
+				color: #0082fa;
+				margin-right: 30px;
+				text-decoration: none;
+				cursor: pointer;
+			}
+
+			.userElement {
+				display: flex;
+				align-items: center;
+
+				.iconUser {
+					background-color: #0082fa;
+					margin-right: 10px;
+					padding: 11px 12px;
+				}
+				.entrance {
+					font-size: 16px;
+					font-weight: 400;
+					line-height: 18px;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+.authorization {
+	// background: #f8f8fc;
+  text-align: center;
+
+	margin: 0 auto;
+	input {
+		width: 250px;
+		height: auto;
+		font-size: 18px;
+		padding: 10px;
+		border: none;
+		background: #fff;
+		box-shadow: inset 0 4px 8px rgb(50 50 71 / 6%), inset 0 4px 4px rgb(50 50 71 / 8%);
+		border-radius: 8px;
+		margin: 10px 0;
+	}
+
+	form {
+		// display: flex;
+		// flex-direction: column;
+		// justify-content: center;
+		h2 {
+			font-style: normal;
+			font-weight: 700;
+			font-size: 45px;
+			line-height: 77px;
+			color: #494953;
+			-webkit-margin-after: 0;
+			margin-block-end: 0;
+		}
+		h3 {
+			font-size: 24px;
+			color: #93939d;
+			margin-bottom: 20px;
+		}
+		.btn-auth {
+			width: 100px;
+			padding: 6px 12px;
+			-webkit-box-shadow: 0 4px 4px rgb(50 50 71 / 8%), 0 4px 8px rgb(50 50 71 / 6%);
+			box-shadow: 0 4px 4px rgb(50 50 71 / 8%), 0 4px 8px rgb(50 50 71 / 6%);
+			border-radius: 12px;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 18px;
+			line-height: 22px;
+			color: #fff;
+			cursor: pointer;
+			align-items: center;
+			background: #0082fa;
+			border: 0;
+		}
+	}
+}

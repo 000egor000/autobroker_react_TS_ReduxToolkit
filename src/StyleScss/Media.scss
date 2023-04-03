@@ -1,0 +1,263 @@
+@media (max-width: 768px) {
+  .headerBlock,
+  .SearchInner,
+  .mainBlock,
+  .breadcrumb,
+  .footer-inner {
+    padding: 5px 20px !important;
+  }
+
+  .SearchInner {
+    .customInput {
+      form {
+        input {
+          font-size: 14px;
+          padding: 10px !important;
+        }
+        button {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+
+  .headerBlock {
+    .logoItem {
+      span {
+        font-size: 30px !important;
+      }
+      h3 {
+        font-size: 16px !important;
+      }
+    }
+    .infoItem {
+      // flex-direction: column-reverse!important;
+
+      a {
+        // width: 100%;
+        min-width: 120px;
+        margin-right: 0 !important;
+        font-size: 12px !important;
+      }
+      .userElement {
+        span {
+          font-size: 12px !important;
+        }
+        img {
+          padding: 6px 7px !important;
+        }
+      }
+    }
+  }
+
+  .mainBlock {
+    .innerMain {
+      margin: 10px auto 15px !important;
+      flex-wrap: wrap;
+      .leftItem,
+      .rightItem {
+        margin-right: 0px !important;
+        max-width: inherit !important;
+        width: 100% !important;
+        .ItemElementBlock {
+          padding: 10px;
+          flex-direction: column-reverse;
+          margin-bottom: 10px;
+
+          .itemInfoAuto {
+            width: 100% !important;
+
+            img {
+              margin-right: 0;
+              width: auto;
+              height: auto;
+              width: 100% !important;
+            }
+            .titleBrand {
+              text-align: center;
+            }
+            .priseBlock {
+              max-width: inherit;
+            }
+          }
+          .autoInfo {
+            width: 100% !important;
+            flex-wrap: wrap !important;
+          }
+          .numberLot {
+            margin-bottom: 5px !important;
+          }
+        }
+        .groupTitleNum {
+          label {
+            margin: 0 5px !important;
+          }
+          li {
+            padding: 10px !important;
+            span {
+              font-size: 16px !important;
+            }
+          }
+          .dropBlock {
+            li {
+              padding: 0 !important;
+              margin-bottom: 6px !important;
+              label {
+                span {
+                  font-size: 14px;
+                }
+                input {
+                  width: 18px !important;
+                  height: 18px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .paginationBlock {
+    flex-wrap: wrap;
+    .numberLink {
+      width: 100%;
+    }
+  }
+  .footerItem {
+    .footer-inner {
+      .itemFotter .groupPayIcon {
+        margin: 15px auto;
+      }
+      .rightPlace {
+        span {
+          font-size: 30px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 895px) {
+  .mainBlock {
+    padding: 5px 20px !important;
+  }
+  .headerBlock {
+    .innerHeader {
+      .infoItem {
+        flex-direction: column;
+
+        a {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .innerDetails {
+    .topPlace {
+      flex-wrap: wrap !important;
+
+      margin-bottom: 0 !important;
+      .partsOne,
+      .partsTwo {
+        width: 100% !important;
+        margin-right: 0 !important;
+      }
+      .partsTwo {
+        padding: 10px !important;
+        margin: 10px 0 !important;
+        .groupInfoAutoTitle {
+          h3 {
+            font-size: 22px !important;
+            margin: 10px 0 !important;
+          }
+        }
+        .groupInfoAuto {
+          label {
+            margin-bottom: 8px !important;
+            .titleParams {
+              font-size: 18px !important;
+            }
+          }
+          .dropContent {
+            margin-top: 15px !important;
+          }
+        }
+      }
+    }
+    .bottomPlace {
+      flex-wrap: wrap !important;
+      .partsThree,
+      .partsFour {
+        width: 100% !important;
+        margin: 0 !important;
+        h2 {
+          margin-bottom: 10px !important;
+        }
+      }
+
+      .partsThree {
+        h2 {
+          font-size: 28px !important;
+        }
+        .similarGroupAuto {
+          li {
+            padding-bottom: 10px !important;
+            width: 100% !important;
+            .titleInfo {
+              padding: 10px !important;
+              height: auto !important;
+            }
+          }
+        }
+      }
+
+      .partsFour {
+        .offerPrise {
+          padding: 15px !important;
+          .partsElement {
+            p {
+              font-size: 18px !important;
+              margin-bottom: 10px !important;
+            }
+            button {
+              max-width: 100% !important;
+            }
+
+            .inputGroupPrise {
+              margin-top: 15px !important;
+            }
+            .itemInput .blockItem {
+              margin-bottom: 10px !important;
+              width: 100% !important;
+              .customInput {
+                form {
+                  padding-right: 0 !important;
+                }
+              }
+            }
+          }
+          .lineParts {
+            margin: 15px 0 !important;
+          }
+        }
+        .timeParts {
+          margin: 10px 0 !important;
+          padding: 15px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .SearchInner {
+    .customInput {
+      form {
+        width: auto !important;
+      }
+    }
+  }
+}
